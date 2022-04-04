@@ -131,3 +131,6 @@ dmypy.json
 
 # jabref
 *.tmp
+
+# mac deleted folder
+.DS_Store
