@@ -31,6 +31,7 @@
 - Documentation
 - Version Control
 
+
 ## Processes (utilising Kanban)
 - P.O. prepares Vision
 - P.O. prepares Roadmap
