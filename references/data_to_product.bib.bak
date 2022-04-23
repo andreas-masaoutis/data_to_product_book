@@ -222,7 +222,7 @@
 }
 
 @Book{Martin2011,
-  author    = {Robert Martin},
+  author    = {Robert C. Martin},
   publisher = {Pearson Education},
   title     = {The clean coder : a code of conduct for professional programmers},
   year      = {2011},
@@ -258,7 +258,7 @@
 }
 
 @Book{Martin2009,
-  author    = {Robert Martin},
+  author    = {Robert C. Martin},
   publisher = {Pearson Education},
   title     = {Clean Code: A Handbook of Agile Software Craftsmanship},
   year      = {2009},
@@ -280,6 +280,7 @@
   publisher = {Pearson Education},
   title     = {Continuous integration : improving software quality and reducing risk},
   year      = {2007},
+  file      = {:/Users/takis/Documents/data_to_product/book/bibliography/scrum_preparation/9Testing_Continuous-Integration.pdf:PDF},
   groups    = {CI/CD},
 }
 
@@ -297,7 +298,26 @@
   publisher = {Pearson Education},
   title     = {Continuous delivery : reliable software releases through build, test, and deployment automation},
   year      = {2011},
+  file      = {:/Users/takis/Documents/data_to_product/book/bibliography/scrum_preparation/10Delivery_Continuous-Delivery.pdf:PDF},
   groups    = {CI/CD},
+}
+
+@Book{McGreal2018,
+  author    = {Don McGreal, Ralph Jocham,},
+  publisher = {Addison-Wesley},
+  title     = {The Professional ProductOwner: LEVERAGING SCRUM AS ACOMPETITIVE ADVANTAGE},
+  year      = {2018},
+  file      = {:/Users/takis/Documents/data_to_product/book/bibliography/scrum_preparation/Don McGreal,Ralph Jocham - The Professional Product Owner_ Leveraging Scrum as a Competitive Advantage-Addison-Wesley Professional (4 June 2018).pdf:PDF},
+  groups    = {Product Owner},
+}
+
+@Book{Martin2014,
+  author    = {Robert C. Martin},
+  publisher = {Pearson Education},
+  title     = {Agile Software Development, Principles, Patterns, and Practices},
+  year      = {2014},
+  file      = {:/Users/takis/Documents/data_to_product/book/bibliography/scrum_preparation/6Programming_Agile_Software_development_Robert C. Martin - Agile Software Development_ Principles, Patterns, and Practices-Pearson (2013).pdf:PDF},
+  groups    = {Agile},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -318,4 +338,5 @@
 1 StaticGroup:User Stories\;0\;1\;0x000000ff\;\;Using user stories fro requirement capturing\;;
 1 StaticGroup:Refactoring\;0\;1\;0x330033ff\;\;Refactoring\;;
 1 StaticGroup:CI/CD\;0\;1\;0xff00ffff\;\;Continuous whatever\;;
+1 StaticGroup:Product Owner\;0\;1\;0x000080ff\;\;On the role of the product owner\;;
 }
