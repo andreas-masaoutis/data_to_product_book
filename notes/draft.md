@@ -8,6 +8,7 @@
 - eXtreme Programming
 - Clean code
 - Test Driven Development
+- Scrumban
 
 
 ## Roles
