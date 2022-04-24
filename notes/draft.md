@@ -19,7 +19,7 @@
   - Tester
   - Data (Engineer, Analyst, Scientist)
   - Dev Ops specialist
-  - Technical writter
+  - Technical writer
 - Scrum Master
 
 
@@ -40,7 +40,7 @@
 - Dev team develops using Reg Green Refactor
 - Dev team runs integration tests
 - Dev team updates documentation
-- Dev Ops deployes
+- Dev Ops deploy application
 - All together demonstrate to Stakeholder
 - Rinse and repeat
 
@@ -57,5 +57,5 @@
 - Documentation
 - Deployment
 - Done
-- Restrospect
+- Retrospect
 
