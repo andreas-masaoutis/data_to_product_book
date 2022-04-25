@@ -3,16 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Data to Product!
+From Data to Product!
 ===========================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Table of Contents
 
-   intro
-   vision
-   roadmap
+   /_files/A1_intro
+   /_files/B1_concepts
+   /_files/C1_roles
+   /_files/D1_tools
+   /_files/E1_processes
+   /_files/F1_example
 
 
 Indices and tables
