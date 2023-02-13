@@ -72,7 +72,10 @@ A way to capture architecture and design, by Simon Brown, is the C4 model:
  - layered
  - package by feature
  - ports and adapters (the core is the domain and is technology agnostic, while the outside is the infrastructure, the technology specific. There is one rule, the outside depends on the inside)
+ - package by component
  
+ Note: make sure that the codebase reflects the architectural intent. For example, without encapsulation and information hiding, with all classes being public, every section of the code can access any other section, which can destroy any architecture.
  
+ IMPORTANT: Criterion of good architecture: It enables agility - the ability to respond as quick and as easy as possible to external stimuly. It usually comes with modularity.
  
  
