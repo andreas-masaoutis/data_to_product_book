@@ -1,5 +1,10 @@
 # The fundamentals of building software
 
+Software development is fundamentaly about 
+knowing the problem that we need to solve (requirements)
+writing the code that solves that problem (development)
+checking that the problem that we needed to solve has indeed been solved (testing/quality assurance)
+
 ## The software development life cycle
 No matter what the prefered software engineering methodoogy is, all of them are organised efforts to address a set of fundamental questions with respect to the development of a software. In other words, no matter in which way, when delivering a software system we are going to plan for, design, build, test, and deliver. Let's see:
 
