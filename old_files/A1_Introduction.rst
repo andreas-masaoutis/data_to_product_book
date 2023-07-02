@@ -39,10 +39,6 @@ What becomes immediately obvious is that it is not possible to summarise such a 
 
 
 
-
-
-
-
 ## Things to do before coding
 Regardless of the process that you follow (traditional and plan-driven vs lightweight and adaptive), there’s a set of common things that really drive, influence and shape the resulting software architecture.
 1. Functional requirements. In order to design software, you need to know something about the goals that it needs to satisfy.
