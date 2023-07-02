@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Data to Product'
-copyright = '2022, Andreas Masaoutis'
+copyright = '2023, Andreas Masaoutis'
 author = 'Andreas Masaoutis'
 
 # The full version, including alpha/beta/rc tags
