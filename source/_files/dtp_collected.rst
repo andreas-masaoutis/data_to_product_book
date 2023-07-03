@@ -64,9 +64,9 @@ The Agile Landscape - v3, by Deloitte
 One of the problems with the Agile landscape is the vast assortment of frameworks, techniques, processes, and ideas that fall under the rubric of Agile. There is a 2016 interesting infographic by Deloitte that represents the Agile landscape as a London Tube map, where lines represent frameworks like Lean, tube stations are specific techniques and concepts like refactoring, while 'geographic' areas represent phases in the Software Development Life Cycle like Release. It is quite massive with 6 'geographic' areas, 25 different lines, and around 300 techniques and concepts. That gives an idea of how Agile is more like an umbrella concept; and a quite big one. 
 
 .. figure:: images/agile_landscape_v3.jpg
-    :width: 780px
+    :width: 715px
     :align: center
-    :height: 600px
+    :height: 550px
     :alt: alternate text
     :figclass: align-center
 
@@ -83,16 +83,9 @@ Terms and their history
 Agile
 ======
 
+Let us start with a short and simple definition of what Agile is. It is the iterative and incremental creation of software, led by continuous feedback from users and stakeholders. That's all there is to it. 
 
-What Agile is about:
-
-- Definition
-
-in the end the test for true agility is continuous delivery
-
-The practices, like XP, are what give content to the form of the processes, like Scrum.
-
-Agile means different things to different people. Actually, it came about as a point of convergence for various practices like XP and Scrum. Therefore, the best we can do is rehash some of the background info available at the  page `Agile manifesto <https://agilemanifesto.org/>`_. There are many more detailed sources on that. We'll start with the Agile manifesto put forward in 2001
+Agile means different things to different people. Actually, it came about as a point of convergence for various practices like RAD, XP and Scrum among others that were developed in the 1990's. The Agile Manifesto was put forward in 2001 and we can interpret it, in a sense, as the common denominator of the various practices that were circulating in the software engineering market at that time. Agile is what disciplined people had already been practicing in the wild. For that reason we will start with the Manifesto itself.  Here `Agile manifesto <https://agilemanifesto.org/>`_ one can find the original publication from 2001. 
 
   Manifesto for Agile Software Development
 
@@ -108,12 +101,7 @@ Agile means different things to different people. Actually, it came about as a p
 
 Although this is short, there is a lot to unpack.
 
-
-
-We can then interpret the Agile manifesto not as an 'a priori' argument against waterfall but rather as one about its suitability in the new conditions. It might have been ok to build software in that way for space missions in the past, but it is not suitable anymore in the kinds of projects we now have to deal with.
-
-
-The signatories of the manifesto had already developed various ideas during the 1990's :
+First, we should note that the signatories of the manifesto had already developed various ideas during the 1990's :
 Sutherland and Schwaber had proposed scrum
 Beck, Jeffries and Cunningham had developed the eXtreme Programming practices
 Cockburn had proposed the Crystal family of methods
@@ -121,25 +109,26 @@ Beck had proposed the test first methods
 Fowler had worked on Design patterns and refactoring
 Martin had worked on patters and the concept of Clean Code
 
-We can see that the manifesto is, in a sense, the common denominator of various practices that were circulating in the software engineering market at that time. Agile is what disciplined people had already been practicing in the wild 
+
+The next thing to note is how the Agile Manifesto is a contraposition against the then prevailing software engineering practices in the corporate world. There would be two parties, that would create a detailed plan with the full requirements, captured in the extensive documentation and the Gantt Chart with the milestones, that should then be followed, with the hand-offs and sign-offs and the subsequent litigation in case something did not worked as planned.
+Of course, we should not interpret the manifesto as an 'a priori' argument against the Waterfall approach but rather as one about its suitability in the new market conditions. It might have been ok to build software in that way for space missions in the past, but it is not suitable anymore in the kinds of projects the developers had to deal with. There are at least two changes that had rendered the heavy-weight project management processes of the past unsuitable.
+
+First, time-to-market mattered in a disruptive environment. Instead of taking longer to build a perfect piece of software, it was a great competitive advantage to be the first to offer something - even if that was not perfect.
+In relation to that, the requirements captured and the contract signed some time ago, was not ideal; rather it would be far better to have the customer involved.
+
+It doesn't seem a coincidence then that the 17 participants chose the word agile to describe their movement; everything revolves around the ability to respond to changes, fast.
 
 
 
+In the next sections we are going to take a look at some of the approaches that led to the Agile Manifesto.
 
-Being agile is not about the title, is about the continuous effort to improve.
+Interesting resources
 
+Engineering Software Products: An Introduction to Modern Software Engineering, 2020, by Ian Sommerville.
+In chapter 1, Sommerville gives a short historical explanation on why the concept of Project dominated the software engineering field since the 1970's and how the focus have changed to Product. These changes provide the canvas for the Agile movement.
 
-
-Jez Humble the water-scrum-fall https://www.youtube.com/watch?v=2zYxWEZ0gYg
-martin fowler - the Agile Industrial Complex https://martinfowler.com/articles/agile-aus-2018.html
-
-
-
-
-https://holub.com/heuristics
-Heuristics for Effective Software Development Organizations: A continuously evolving list.*
-
-One of the manifestations of the lack of agility is that one needs to understand everything in the codebase in order to change anything, at which point what you have is rigidity rather than agility.
+Practices of an Agile developer, 2006, by Subramaniam and Hunt.
+This book is somewhat old, but not dated, in that it provides a lot of practical considerations of what agile software development is in practice.
 
 
 eXtreme Programming (XP)
@@ -285,6 +274,7 @@ in order to change you need clearly defined and measurable goals, along with a w
 Eric Ries with the 'Lean Startup' did not just focus on the programmers but described cycles of learning for everybody that is involved in building software. 
 
 
+Jez Humble the water-scrum-fall https://www.youtube.com/watch?v=2zYxWEZ0gYg
 
 
 Scrum
@@ -446,6 +436,12 @@ Places that work Agile
 A list of places that use Agile and how they do it.
 
 
+
+************************
+Criticism of Agile
+************************
+
+martin fowler - the Agile Industrial Complex https://martinfowler.com/articles/agile-aus-2018.html
 
 
 ####################
@@ -1074,10 +1070,20 @@ Project Docs
 ==============================
 
 
-
 ############################
 PART 5: Example
 ############################
 
 
 On software tools and libraries used for implementing the aforementioned principles, mostly in Python.
+
+
+
+############################
+PART 6: Interesting links
+############################
+
+https://holub.com/heuristics
+Heuristics for Effective Software Development Organizations: A continuously evolving list.*
+
+One of the manifestations of the lack of agility is that one needs to understand everything in the codebase in order to change anything, at which point what you have is rigidity rather than agility.
