@@ -116,7 +116,7 @@ Of course, we should not interpret the manifesto as an 'a priori' argument again
 First, time-to-market mattered in a disruptive environment. Instead of taking longer to build a perfect piece of software, it was a great competitive advantage to be the first to offer something - even if that was not perfect.
 In relation to that, the requirements captured and the contract signed some time ago, was not ideal; rather it would be far better to have the customer involved.
 
-It doesn't seem a coincidence then that the 17 participants chose the word agile to describe their movement; everything revolves around the ability to respond to changes, fast.
+It doesn't seem a coincidence then that the 17 participants chose the word agile to describe their movement; everything revolves around the ability to respond to changes, fast. 
 
 
 
@@ -357,7 +357,7 @@ By managing queues, limiting work-­‐in progress and batch sizes and building 
 ************************
 The core concepts
 ************************
-Incremental and Iterative development with feedback loops
+The goal here is to present some fundamental ideas/concepts that shed light to thw whole topic. These ideas underlie both the Agile concepts we presented in the previous section, and at the same time teh actual implementation of Agile that we will present in subsequent sections.
 
 
 ************************
@@ -441,7 +441,21 @@ A list of places that use Agile and how they do it.
 Criticism of Agile
 ************************
 
+ Why Agile Fails in Large Enterprises - Large Scale Agile Transformation 
+ https://www.youtube.com/watch?v=Oo3zlOTbN2E
+
+http://www.my-project-management-expert.com/the-advantages-and-disadvantages-of-agile-scrum-software-development.html
+
+
+************************
+Internal divisions
+************************
 martin fowler - the Agile Industrial Complex https://martinfowler.com/articles/agile-aus-2018.html
+
+What Scrum forget was that you cannot have speed without quality. You cannot have speed while you are carrying technical debt. And the more technical debt you will carry, the slower you will go. And this is a horrible wicked circle, because the slower you go, the more technical debt you will acquire.
+
+Because of this, another movement was born – the Software Craftsmanship movement. This is an evidence of a split in the community. A group of us felt it was necessary to re-assert the values of eXtreme Programming into this world that was now dominated by Project Manager Scrum Master Scrum. We hope that is a reawakening of Kent’s vision. I’m not sure there is any evidence to this effect.
+https://www.aaron-gray.com/a-criticism-of-scrum/
 
 
 ####################
@@ -453,6 +467,12 @@ PART 2: The concepts
 ************************
 Craftsmanship
 ************************
+
+What Scrum forget was that you cannot have speed without quality. You cannot have speed while you are carrying technical debt. And the more technical debt you will carry, the slower you will go. And this is a horrible wicked circle, because the slower you go, the more technical debt you will acquire.
+
+Because of this, another movement was born – the Software Craftsmanship movement. This is an evidence of a split in the community. A group of us felt it was necessary to re-assert the values of eXtreme Programming into this world that was now dominated by Project Manager Scrum Master Scrum. We hope that is a reawakening of Kent’s vision. I’m not sure there is any evidence to this effect.
+
+https://www.aaron-gray.com/a-criticism-of-scrum/
 
 Responsibility
 ===============
@@ -516,9 +536,28 @@ The secret for good design is simplicity. Your code has the following properties
 it works
 it communicates clearly
 there is no duplication
-there are no extra pieces 
+there are no extra pieces
 
 
+
+
+************************
+Technical Debt
+************************
+As one has to pay for financial debts, so too one has to pay for technical debt.
+
+
+
+************************
+Last responsible moment
+************************
+Delay important decisions up to the last responsible moment, until you really need to make them
+
+As we said previously, everything revolves around the ability to respond to changes, fast. Since the work is being done incrementally in small batches, without a detailed upfront plan, some rework is inevitable. For that reason minimizing rework while maximizing feedback is the central concern of the agile team. The last responsible moment is the sweat spot; too early and the team risks to make decisions without validation; too late and there will be a lot of rework. 
+
+Rework is, at its core, caused by having to undo decisions that have been made in the past.
+
+Rework is triggered by learning new things that invalidate prior decisions
 
 
 ####################
@@ -529,6 +568,14 @@ PART 3: The people
 The Agile mentality
 ************************
 proactive, independent, empathetic, etc.
+
+Mastery, Autonomy & Purpose
+To motivate employees who work beyond basic tasks, Pink believes that supporting employees in the following areas will result in increased performance and satisfaction:
+
+    Autonomy – A desire to be self directed, it increases engagement over compliance.
+    Mastery – The urge to get better skilled.
+    Purpose – The desire to do something that has meaning and is important. Businesses that only focus on profits without valuing purpose will end up with poor customer service and unhappy employees.[5]
+https://techbeacon.com/app-dev-testing/organizing-your-agile-teams-think-autonomy-mastery-purpose
 
 
 ************************
@@ -551,6 +598,10 @@ One of the ways to organise the team is to have a set of broadly skilled people,
 Also these is no buffering between the business and the developers. The connection is immediate with the business and the product. There are no dedicated business analysts, product owners, or testers. these are all functions covered by the team members, and as a result there is no need for large teams 4-6 people is enough. Each team member does a certain amount of story research; they talk to the business and try to figure out what the needs are, and then they do the technical research on the available options, that will finally be presented to the rest of the team and stakeholders for decision to be made. The team's time is split between new story development, maintenance/technical improvement of the existing system. The teams are not entirely collocated and therefore there is the need for online boards to keep track of the work planned and done. All developers in the team can spent one day per week for learning, not necessarily on the immediate needs of the product. The team is tracking its activities, since there are no project managers to manage things around, so that the team can then inspect and adapt. With the retrospective the team has the 'ability' to decide what to track, how to measure the performance and what steps to take in order to improve. Collective ownership also extends to processes. The team makes things happen without relying onto any kind of specialist. The team does have specialists, but they are there to work with the teams and teach the teams. It's not a case of the specialist does a special thing. With cross-functional teams there are fewer bottlenecks. Additionally the teams are fluid with team members rotating between the various teams, every x number of months. In the end, 1. the teams deliver value in a sustainable manner, so that the management can be reassured that things do work without having to manage things closely. Also, 2. the teams build change tolerant systems that are easier to modify. Finally, 3. the choice over what to do, makes it easier for team members to relate to the business needs, it means that people acquire more skills of greater variety by constantly learning, that makes their work more fulfilling, and as a result they stick with the team for far longer.
 
 
+The team is the locus of business problems, technical solutions, and organisational processes
+Why Agile Fails in Large Enterprises - Large Scale Agile Transformation 
+https://www.youtube.com/watch?v=Oo3zlOTbN2E 15:59
+
 ************************
 The roles
 ************************
@@ -568,7 +619,7 @@ PART 4: Tools and Processes
 
 
 ************************
-Pre-Development
+Pre-Coding
 ************************
 
 
@@ -579,9 +630,6 @@ Business Model Canvas
 ==============================
 
 Roadmap
-==============================
-
-Budgeting 
 ==============================
 
 Persona
@@ -643,6 +691,19 @@ Feature
 
 Backlog
 ==============================
+
+INVEST (mnemonic)
+
+Letter 	Meaning 	Description
+I 	Independent 	The PBI should be self-contained.
+N 	Negotiable 	PBIs are not explicit contracts and should leave space for discussion.
+V 	Valuable 	A PBI must deliver value to the stakeholders.
+E 	Estimable 	You must always be able to estimate the size of a PBI.
+S 	Small 	PBIs should not be so big as to become impossible to plan/task/prioritize within a level of accuracy.
+T 	Testable 	The PBI or its related description must provide the necessary information to make test development possible.
+
+https://en.wikipedia.org/wiki/INVEST_(mnemonic)
+
 
 Tasks
 ==============================
@@ -753,6 +814,15 @@ A way to capture architecture and design, by Simon Brown, is the C4 model:
  IMPORTANT: Criterion of good architecture: It enables agility - the ability to respond as quick and as easy as possible to external stimuly. It usually comes with modularity.
  
  
+https://www.infoq.com/articles/architecture-five-things/
+Software architecture isn’t about big design up front
+The up front design process should therefore be about understanding the significant decisions that influence the shape of a software system rather than, for example, understanding the length of every column in a database. In real terms, I’d like teams to really understand what they are going to build, how they are going to build it (at a high-level, anyway) and whether what they’ve designed will have a good chance of actually working. This can be achieved by identifying the highest priority risks and mitigating them as appropriate, writing code if necessary. In summary, up front design should be about stacking the odds of success in your favour.
+
+
+https://www.infoq.com/articles/agility-architecture/
+Agility and Architecture: Balancing Minimum Viable Product and Minimum Viable Architecture 
+we do not view a software architecture as a set of components and connectors, but rather as the composition of a set of architectural design decisions - Jan Bosch and Anton Jansen (IEEE 2005) 
+
 
 
 
@@ -814,8 +884,19 @@ people constraints
 Test plan
 ==============================
 
+You should not wait until you have a complete system before you start system testing. Testing should start on the day you start writing code. You should test as you implement code, so that even a minimal system with hardly any features is tested. As more features are added, the develop/test cycle continues until a finished system is available. This develop/test cycle is simplified if you develop automated tests so that you can rerun tests whenever you make code changes.
+
+How to Break Software (with examples) Jorgensen et Whittaker
+https://www.researchgate.net/publication/315700027_How_to_Break_Software_with_examples
+
 Coding Standards
 ==============================
+
+
+
+Exception handling
+https://www.toptal.com/abap/clean-code-and-the-art-of-exception-handling
+
 
 Team Setup
 ==============================
@@ -826,14 +907,40 @@ Software Licence
 Service-Level-Agreement (SLA)
 ==============================
 
+Budgeting 
+==============================
+Software Application Discovery As The Best Method For Estimating The Application Software Development Budget
+
+Discovery is a process where a project team discovers all technical requirements related to a given project, so they can prototype the application and estimate the budget. So, not only can you discover all the technical requirements, but you can also see how an app would look like and figure out how much the entire process is going to cost.
+
+Thanks to the prototype, clients love this Agile approach because they get to see how an app looks and feels like. A prototype is a semi-functional graphical representation of a potential product that offers an overall look and user flow for examination before any real development begins. Prototypes often look so natural and complete that they can be handed off to a potential user for the feedback!
+
+By the end of the discovery cycle, the following items are delivered to the client:
+
+    Requirements definition and analysis: These elements offer a review of key aspects, critical functionality, and core technical features. The project team, to achieve this, dives into the initial requirements, making them more coherent and tying the various proposed elements to each other.
+    Recommended technological stack: An outline of the programming languages and technologies that will best suit the requirements. Often, a comparative table is used to present the pros and cons of each recommended approach.
+    Functional and nonfunctional requirements: This captures the details of the potential product, including vision, scope, and a description of user functionality.
+    Project plan: A step-by-step plan for how the project should run to achieve on-time and on-budget delivery.
+    Cost estimation: Detailed cost estimates that provide granular analysis. Usually, at this point, estimates are so precise that budget overruns rarely happen.
+
+From a business perspective, discovery helps uncover new opportunities and/or verify a business idea. The results of this process might influence or even shift the direction of any further product development. This method provides invaluable insights at a very early stage.
+By investing time in discovery, you can minimize the project risks associated with cost and schedule overruns.
+
+Given the capacity, one can enumerate the cost of a team.
+There are at least three reason to do something.
+Strategic. For example, we anticipate that the language/technology we use will have to change, because it is getting inefficient. There will be no immediate gain, but we know should spent the effort and time to do so.
+cost reduction. In many cases, we can reduce the costs of operation by using software.
+revenue creation. new features, or products, that translate to more customers/revenue.
+If we can estimate the above, then we can make sound financial decisions, even without a traditional budgeting approach.
+
+
 Legal Considerations
 ==============================
 
 
 
-
 ************************
-Development
+Coding
 ************************
 
 
@@ -1025,12 +1132,16 @@ Code quality
 Code review
 ==============================
 
+Your Code Review Checklist: 14 Things to Include
+https://www.codementor.io/blog/code-review-checklist-76q7ovkaqj
+
+
 Retrospective (Sprint review)
 ==============================
 
 
 ************************
-Post-Development
+Post-Coding
 ************************
 
 User Support
@@ -1078,9 +1189,13 @@ PART 5: Example
 On software tools and libraries used for implementing the aforementioned principles, mostly in Python.
 
 
+############################
+PART 6: A summary
+############################
+One of the arguments of Agile, is that there is an unobservable theoretical limit of minimum cost, which can be approached by using sound engineering principles.
 
 ############################
-PART 6: Interesting links
+PART 7: Interesting links
 ############################
 
 https://holub.com/heuristics
