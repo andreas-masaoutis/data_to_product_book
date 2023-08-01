@@ -575,7 +575,7 @@ To motivate employees who work beyond basic tasks, Pink believes that supporting
     Autonomy – A desire to be self directed, it increases engagement over compliance.
     Mastery – The urge to get better skilled.
     Purpose – The desire to do something that has meaning and is important. Businesses that only focus on profits without valuing purpose will end up with poor customer service and unhappy employees.[5]
-https://techbeacon.com/app-dev-testing/organizing-your-agile-teams-think-autonomy-mastery-purpose
+    https://techbeacon.com/app-dev-testing/organizing-your-agile-teams-think-autonomy-mastery-purpose
 
 
 ************************
@@ -1132,8 +1132,24 @@ Code quality
 Code review
 ==============================
 
-Your Code Review Checklist: 14 Things to Include
-https://www.codementor.io/blog/code-review-checklist-76q7ovkaqj
+As per wikipedia:
+    Code review (sometimes referred to as peer review) is a software quality assurance activity in which one or several people check a program mainly by viewing and reading parts of its source code, and they do so after implementation or as an interruption of implementation. At least one of the persons must not be the code's author. The persons performing the checking, excluding the author, are called "reviewers".
+
+
+It is common that the review takes place before merging branches, or deploying code to production. The feedback is usually given by colleagues, either other developers, a manager, or a tech lead. One of the most familiar forms of code review is the Github pull request, in which developers leave comments on specific lines of code and, ultimately, approve or reject the proposed changes.
+
+
+Companies that perform code reviews, spend the extra effort for the following benefits, as reviews help with:
+    - finding defects while the code is in development. Not only outright bugs - which mostly are being caught by tests, but also issues with the overall code quality, the architecture, etc. A stitch in time, saves nine...
+    - transferring knowledge between the participants, which helps individual developers learn new skills and improve.
+    - breaking down possible barriers and create common ownership of the code base for the whole team.
+
+
+A usual way to perform a code review is with a pull request - when a developer finishes the task being developed, asks a designated team member or the lead developer to merge the changes into the code base. Then either other developers, asynchronously, leave comments on specific lines of code and, ultimately, approve or reject the proposed changes, or do the same synchronously with all the participants present.
+
+Assuming that the code has been developed as a task which is part of a story then there should be the definition of what Done actually means. This definition provides the basis for a list of points to consider when performing the review - passing the various tests, being documented, conforming to the agreed coding standards, etc. 
+
+In this way, the review is less subjective. If the participants are also attentive with language and communication, like not being offending in their comments, the whole review process can be fruitful and constructive for all participants.
 
 
 Retrospective (Sprint review)
