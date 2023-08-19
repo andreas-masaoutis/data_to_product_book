@@ -9,9 +9,16 @@ From Data to Product!
 .. toctree::
    :maxdepth: 2
    :caption: Table of Contents
-
-   /_files/dtp_collected.rst
-
+  
+   /_files/A1_introduction
+   /_files/B1_agile
+   /_files/C1_concepts
+   /_files/D1_people
+   /_files/E1_tools_n_processes
+   /_files/F1_example
+   /_files/G1_summary
+   /_files/H1_useful_sources
+   
 
 Indices and tables
 ==================
