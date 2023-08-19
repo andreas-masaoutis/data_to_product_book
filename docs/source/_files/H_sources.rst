@@ -11,6 +11,13 @@ General or introductory sources on Agile
 
 
 
+On the individual roles
+
+    - Agile Product Management with Scrum - Creating Products that Customers Love, by Roman Pichler, published by Addison-Wesley, 2010
+
+    A comprehensive overview of the Product Owner role within the Scrum framework, with a lot of practical pieces of advice on how to perform this role.
+
+
 
 On Documentation
 
