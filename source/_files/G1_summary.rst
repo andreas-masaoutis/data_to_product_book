@@ -1,5 +1,5 @@
 ============================
-Concrete Example 
+Summary
 ============================
 
 We should now sum up the main points of interest
