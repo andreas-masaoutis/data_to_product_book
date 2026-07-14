@@ -2,7 +2,8 @@
 Introduction
 *************
 
-# The fundamentals of building software 
+# The fundamentals of building software
+Creating software that does the right thing, that does that thing right, and being built in reasonable timeframe, is all but easy!
 
 ## The Software Development Life Cycle (SDLC)
 
