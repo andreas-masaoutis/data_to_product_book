@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Data to Product'
-copyright = '2023, Andreas Masaoutis'
+copyright = '2023-2026, Andreas Masaoutis'
 author = 'Andreas Masaoutis'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = '0.2.1'
 
 
 # -- General configuration ---------------------------------------------------

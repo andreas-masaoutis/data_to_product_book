@@ -6,18 +6,30 @@
 From Data to Product!
 ===========================================
 
+Hello, welcome to this free guile on Agile software engineering.
+
 .. toctree::
    :maxdepth: 2
    :caption: Table of Contents
   
-   /_files/A1_introduction
-   /_files/B1_agile
-   /_files/C1_concepts
-   /_files/D1_people
-   /_files/E1_tools_n_processes
-   /_files/F1_example
-   /_files/G1_summary
-   /_files/H1_useful_sources
+   /_files/A_TLDR
+   /_files/B_Preface
+   /_files/C_SDLC
+   /_files/D_Background
+   /_files/E_Core_ideas
+   /_files/F_Frameworks
+   /_files/G_Concepts
+   /_files/H_People
+   /_files/I_Product
+   /_files/J_Organise
+   /_files/K_Build
+   /_files/L_Document
+   /_files/M_Flow
+   /_files/N_Business_model
+   /_files/O_Summary
+   /_files/P_Resources
+   /_files/Q_Acknowledgements
+   /_files/R_Roadmap
    
 
 Indices and tables
