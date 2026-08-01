@@ -6,7 +6,7 @@
 From Data to Product!
 ========================
 
-Hello, welcome to this free guile on Agile software engineering.
+Hello, welcome to this free guide on Agile software engineering.
 
 .. toctree::
    :maxdepth: 2
