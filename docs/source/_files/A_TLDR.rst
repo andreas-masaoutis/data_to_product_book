@@ -1,6 +1,6 @@
-============================
+##########
 tl;dr
-============================
+##########
 
 Agile, effectively is software engineering decision-making under uncertainty and incomplete information. In simple words, how to build software when many things can happen and when we cannot even have the information about what might happen. The Agile solution is incremental and iterative experimentation with short feedback looks.
 

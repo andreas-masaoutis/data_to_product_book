@@ -1,6 +1,6 @@
-==============================================
+########################
 Interesting sources
-==============================================
+########################
 
 Change by Design, Revised and Updated: How Design Thinking Transforms Organizations and Inspires Innovation, 2019, by Tim Brown. Everything about finding what is worth to build. The book does not focus on software, but contains lessons and tools that can be directly applied to various fields.
 

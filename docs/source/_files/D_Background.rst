@@ -1,6 +1,6 @@
-================================
+########################################
 Historical background of agile
-================================
+########################################
 
 In a nut shell, the Agile with its proposal for an iterative and incremental approach tried to challenge the sequential way in which software was being built until the late 90's.
 

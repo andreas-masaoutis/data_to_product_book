@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 From Data to Product!
-===========================================
+========================
 
 Hello, welcome to this free guile on Agile software engineering.
 

@@ -1,12 +1,15 @@
-================================
+####################
 Core ideas of Agile
-================================
+####################
+
 
 Two main questions: - How to build the right thing - How to build the thing right
 Let us start with a short and simple definition of what Agile is. It is the iterative and incremental creation of software, led by continuous feedback from users and stakeholders. That's all there is to it.
 
 Agile means different things to different people. Actually, it came about as a point of convergence for various practices like RAD, XP and Scrum among others that were developed in the 1990's. The Agile Manifesto was put forward in 2001 and we can interpret it, in a sense, as the common denominator of the various practices that were circulating in the software engineering market at that time. Agile is what disciplined people had already been practicing in the wild. For that reason, we will start with the Manifesto itself. Here Agile manifesto one can find the original publication from 2001.
 
+The Manifesto
+================================
 Manifesto for Agile Software Development (https://agilemanifesto.org/)
 
 We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:
@@ -18,6 +21,7 @@ Responding to change over following a plan
 That is, while there is value in the items on the right, we value the items on the left more.
 
 Principles behind the Agile Manifesto (https://agilemanifesto.org/principles.html)
+
 We follow these principles:
 Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
